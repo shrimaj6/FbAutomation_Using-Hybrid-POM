@@ -1,0 +1,63 @@
+2022-07-19 09:22:35 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 09:22:40 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 09:22:46 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 09:26:24 INFO  HomePageTest:42 - verify username test: 
+  2022-07-19 11:43:20 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 11:43:25 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 11:43:30 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 11:46:50 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 11:46:55 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 11:47:00 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 15:11:27 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 15:11:33 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 15:11:38 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 15:11:53 INFO  HomePageTest:42 - verify username test: 
+  2022-07-19 15:13:51 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 15:13:56 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 15:14:02 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 15:14:18 INFO  HomePageTest:42 - verify username test: 
+  2022-07-19 15:18:23 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 15:18:29 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 15:18:34 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-19 15:18:51 INFO  HomePageTest:42 - verify username test: 
+  2022-07-19 16:19:52 INFO  LoginPageTest:75 - login successful with username: ajaylad112211@gmail.com
+  2022-07-19 16:19:58 INFO  LoginPageTest:75 - login successful with username: ajay1@gmail.com
+  2022-07-19 16:20:04 INFO  LoginPageTest:75 - login successful with username: jayshah11@gmail.com
+  2022-07-20 14:22:02 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:27:21 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:27:42 INFO  HomePageTest:42 - verify username test: 
+  2022-07-20 14:29:44 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:29:47 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:29:50 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:29:56 INFO  LoginPageTest:86 - login successful with username: ajaylad112211@gmail.com
+  2022-07-20 14:29:56 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:30:01 INFO  LoginPageTest:86 - login successful with username: ajay1@gmail.com
+  2022-07-20 14:30:01 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:30:07 INFO  LoginPageTest:86 - login successful with username: jayshah11@gmail.com
+  2022-07-20 14:35:12 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:35:33 INFO  HomePageTest:42 - verify username test: 
+  2022-07-20 14:35:34 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:35:41 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:35:46 INFO  LoginPageTest:86 - login successful with username: ajaylad112211@gmail.com
+  2022-07-20 14:35:47 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:35:52 INFO  LoginPageTest:86 - login successful with username: ajay1@gmail.com
+  2022-07-20 14:35:53 INFO  LoginPageTest:42 - ******** Starting test cases execution  *********
+  2022-07-20 14:35:58 INFO  LoginPageTest:86 - login successful with username: jayshah11@gmail.com
+  2022-07-21 16:54:29 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:54:32 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:54:35 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:54:40 INFO  LoginPageTest:82 - login successful with username: ajaylad112211@gmail.com
+  2022-07-21 16:54:40 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:54:45 INFO  LoginPageTest:82 - login successful with username: ajay1@gmail.com
+  2022-07-21 16:54:46 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:54:51 INFO  LoginPageTest:82 - login successful with username: jayshah11@gmail.com
+  2022-07-21 16:55:43 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:55:57 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:56:07 INFO  HomePageTest:42 - verify username test: 
+  2022-07-21 16:56:11 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:56:16 INFO  LoginPageTest:82 - login successful with username: ajaylad112211@gmail.com
+  2022-07-21 16:56:16 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:56:22 INFO  LoginPageTest:82 - login successful with username: ajay1@gmail.com
+  2022-07-21 16:56:22 INFO  LoginPageTest:38 - ******** Starting test cases execution  *********
+  2022-07-21 16:56:27 INFO  LoginPageTest:82 - login successful with username: jayshah11@gmail.com
+  

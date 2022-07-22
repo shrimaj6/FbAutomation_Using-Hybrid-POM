@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.043 s <<< FAILURE! - in TestSuite
+verifyHomePageTitleTest(com.fb.qa.testcases.HomePageTest)  Time elapsed: 4.783 s  <<< FAILURE!
+java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
+	at com.fb.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:36)
+
+VerifyClickOnGroupLink(com.fb.qa.testcases.GroupPageTest)  Time elapsed: 5.858 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-84D7O3F5', ip: '192.168.137.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\shrim\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51f293219d862b1bf3d6411281152a46
+	at com.fb.qa.testcases.GroupPageTest.VerifyClickOnGroupLink(GroupPageTest.java:39)
+

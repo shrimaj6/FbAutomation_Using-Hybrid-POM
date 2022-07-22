@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-20T09:04:41Z" name="Surefire suite" finished-at="2022-07-20T09:05:58Z" duration-ms="77484">
+    <groups>
+    </groups>
+    <test started-at="2022-07-20T09:04:41Z" name="Surefire test" finished-at="2022-07-20T09:05:58Z" duration-ms="77484">
+      <class name="com.fb.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:00Z" name="setUp" finished-at="2022-07-20T09:05:07Z" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:07Z" name="verifyHomePageTitleTest" finished-at="2022-07-20T09:05:12Z" duration-ms="4776" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.fb.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:12Z" name="tearDown" finished-at="2022-07-20T09:05:12Z" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:26Z" name="setUp" finished-at="2022-07-20T09:05:28Z" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUsernameTest()[pri:2, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:28Z" name="verifyUsernameTest" finished-at="2022-07-20T09:05:33Z" duration-ms="5155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.HomePageTest@550ee7e5]" started-at="2022-07-20T09:05:33Z" name="tearDown" finished-at="2022-07-20T09:05:34Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.HomePageTest -->
+      <class name="com.fb.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:15Z" name="setUp" finished-at="2022-07-20T09:05:17Z" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpPageTitleTest()[pri:1, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:17Z" name="signUpPageTitleTest" finished-at="2022-07-20T09:05:17Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:17Z" name="tearDown" finished-at="2022-07-20T09:05:17Z" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:37Z" name="setUp" finished-at="2022-07-20T09:05:39Z" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignUpTest()[pri:2, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:39Z" name="SignUpTest" finished-at="2022-07-20T09:05:40Z" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.SignUpPageTest@247d8ae]" started-at="2022-07-20T09:05:40Z" name="tearDown" finished-at="2022-07-20T09:05:41Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.SignUpPageTest -->
+      <class name="com.fb.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:12Z" name="setUp" finished-at="2022-07-20T09:05:14Z" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fbLogoTest()[pri:1, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:14Z" name="fbLogoTest" description="verifying fbLogo test" finished-at="2022-07-20T09:05:14Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:14Z" name="tearDown" finished-at="2022-07-20T09:05:15Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:34Z" name="setUp" finished-at="2022-07-20T09:05:36Z" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:36Z" name="loginTest" description="verifying the loginTest on Login page" finished-at="2022-07-20T09:05:36Z" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:36Z" name="tearDown" finished-at="2022-07-20T09:05:37Z" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:41Z" name="setUp" finished-at="2022-07-20T09:05:43Z" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:43Z" name="multipleLoginTest" description="verifying multiple login using dataprovider test on login page" data-provider="getLoginTestData" finished-at="2022-07-20T09:05:46Z" duration-ms="3345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajaylad112211@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty@111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:46Z" name="tearDown" finished-at="2022-07-20T09:05:47Z" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:47Z" name="setUp" finished-at="2022-07-20T09:05:49Z" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:49Z" name="multipleLoginTest" description="verifying multiple login using dataprovider test on login page" data-provider="getLoginTestData" finished-at="2022-07-20T09:05:52Z" duration-ms="3257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajay1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty@8411]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:52Z" name="tearDown" finished-at="2022-07-20T09:05:53Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:53Z" name="setUp" finished-at="2022-07-20T09:05:55Z" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:55Z" name="multipleLoginTest" description="verifying multiple login using dataprovider test on login page" data-provider="getLoginTestData" finished-at="2022-07-20T09:05:58Z" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jayshah11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty@8311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@5f9b2141]" started-at="2022-07-20T09:05:58Z" name="tearDown" finished-at="2022-07-20T09:05:58Z" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.LoginPageTest -->
+      <class name="com.fb.qa.testcases.GroupPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:04:41Z" name="setUp" finished-at="2022-07-20T09:04:44Z" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGrouplabelTest()[pri:1, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:04:44Z" name="verifyGrouplabelTest" finished-at="2022-07-20T09:04:59Z" duration-ms="15109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrouplabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:04:59Z" name="tearDown" finished-at="2022-07-20T09:05:00Z" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:05:17Z" name="setUp" finished-at="2022-07-20T09:05:20Z" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyClickOnGroupLink()[pri:2, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:05:20Z" name="VerifyClickOnGroupLink" finished-at="2022-07-20T09:05:26Z" duration-ms="5863" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-84D7O3F5', ip: '192.168.137.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\shrim\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51f293219d862b1bf3d6411281152a46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-84D7O3F5', ip: '192.168.137.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\shrim\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51f293219d862b1bf3d6411281152a46
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.fb.qa.pages.HomePage.ClickOnGroupsLink(HomePage.java:62)
+at com.fb.qa.testcases.GroupPageTest.VerifyClickOnGroupLink(GroupPageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickOnGroupLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fb.qa.testcases.GroupPageTest@15bbf42f]" started-at="2022-07-20T09:05:26Z" name="tearDown" finished-at="2022-07-20T09:05:26Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.GroupPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
